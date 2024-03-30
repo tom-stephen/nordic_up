@@ -8,6 +8,9 @@ import TheProduct from './pages/The_Product/TheProduct.js'
 import Order from './pages/Order/Order.js'
 import About from './pages/About/About.js'
 import NavBar from './navbar/NavBar.js';
+import "@fontsource/aileron";
+import "@fontsource/aileron/400.css"; 
+import "@fontsource/aileron/400-italic.css"; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

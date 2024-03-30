@@ -1,0 +1,33 @@
+.navbar {
+    background: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+}
+
+.nav-item {
+    margin-right: 20px;
+    float: left;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #e7eaed;
+    font-size: 180%;
+    font-weight: 1000;
+}
